@@ -5,7 +5,7 @@ Some hints are given below but you can use any structure or approach of your cho
 
 */
 
-//var button = document.querySelector('.HIDE-CONTENT');
+var button = document.querySelector('.HIDE-CONTENT');
 let hideButton = document.getElementById("hideButton");
 
 hideButton.addEventListener('click', function(e) {
@@ -13,5 +13,3 @@ hideButton.addEventListener('click', function(e) {
     alert("clicked");
   
 });
-
-button.onClick = 
