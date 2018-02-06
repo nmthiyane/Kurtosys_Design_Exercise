@@ -9,10 +9,11 @@ function hideFunction(){
     let hideContent = document.getElementById("flexibox");
     if (hideContent.style.display === "none") {
         hideContent.style.display = "block";
+        document.getElementById('hideButton').innerText = 'HIDE CONTENT';
     } else {
         hideContent.style.display = "none";
-    }
+        document.getElementById('hideButton').innerText = 'SHOW CONTENT';
 
-    
+    }
 }
 

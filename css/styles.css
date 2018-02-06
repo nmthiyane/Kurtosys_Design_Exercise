@@ -4,7 +4,7 @@ body{
     text-align: center;
 }
 
-#flexibox{
+.flexibox{
     display: flex;
     width: 27%;
     min-width: 350px;
@@ -44,6 +44,9 @@ p{
     font-weight: normal;
 }
 
+.Name{
+    margin-top: 40px;
+}
 
 .profile{
     border-bottom: 1px solid grey;
