@@ -5,9 +5,13 @@ Some hints are given below but you can use any structure or approach of your cho
 
 */
 
-var button = document.querySelector('.targetClassName');
+//var button = document.querySelector('.HIDE-CONTENT');
+let hideButton = document.getElementById("hideButton");
 
-button.addEventListener('click', function(e) {
-
+hideButton.addEventListener('click', function(e) {
+    console.log("sdad");
+    alert("clicked");
   
 });
+
+button.onClick = 

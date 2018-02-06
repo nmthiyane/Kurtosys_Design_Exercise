@@ -1,5 +1,48 @@
-/*
-Your styles should go in here.
-Use any styles of your choosing, the solution should support the latest browsers -1.
-*/
 
+body{
+    background-color: rgb(57, 151, 245);
+    text-align: center;
+}
+
+.flexibox{
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+    background-color: white;
+    margin: 50px auto auto auto;
+    padding: 10px 20px 10px 20px;
+}
+
+button{
+    margin: 10px;
+    width: auto;
+}
+
+img{
+    border-radius: 50%;
+    float: left;
+    max-width: 900px;
+    height:110px;
+}
+
+p{
+    margin: 50px auto auto 50px;
+    padding-left: 100px;
+    text-align: left; 
+}
+
+.additional-info{
+    color: grey;
+    margin: auto auto auto 50px;
+
+}
+
+
+.profile{
+    border-bottom: 1px solid grey;
+    padding: 10px 0px 10px 0px;
+}
+
+.profile:last-child{
+    border: none;
+}
