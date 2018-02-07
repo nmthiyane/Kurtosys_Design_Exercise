@@ -4,6 +4,7 @@ body{
     text-align: center;
 }
 
+/*Flexibox is to make the box to be flexible when resizing the screen*/
 .flexibox{
     display: flex;
     width: 27%;

@@ -8,7 +8,7 @@ Some hints are given below but you can use any structure or approach of your cho
 function hideFunction(){
     let hideContent = document.getElementById("flexibox");
     if (hideContent.style.display === "none") {
-        hideContent.style.display = "block";
+        hideContent.style.display = "flex";
         document.getElementById('hideButton').innerText = 'HIDE CONTENT';
     } else {
         hideContent.style.display = "none";
